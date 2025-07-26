@@ -1,0 +1,6 @@
+services:
+    code-server:
+        build: .
+        image: winform-demo:latest
+        container_name: code-server
+        restart: unless-stopped
